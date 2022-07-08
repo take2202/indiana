@@ -10,7 +10,7 @@ st.set_page_config(page_title="Indeed Analysis", layout="wide")
 st.title("Indeed Analysis")
 
 uploaded_file = st.file_uploader("Upload CSV", type=".csv")
-st.sidebar.subheader("求人レポート幅調節")
+st.sidebar.subheader("求人レポート高さ調節")
 grid_height = st.sidebar.number_input("Grid height", min_value=200, max_value=800, value=300)
 
 if uploaded_file:
